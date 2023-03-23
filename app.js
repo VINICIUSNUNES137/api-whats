@@ -27,14 +27,6 @@ app.use((request, response, next) => {
 
 
   app.get('/v1/senai/contato', cors(), async function(request, response, next){
-  
-    /**
-     *  Usei a query para receber diversas variaveis para realizar filtros,
-     * também usei o paramas para receber o ID (PK), 
-     * 
-     * 
-     */
-    // Recebe o valor da váriavel que é enviada por QueryString
     let id = request.query.uf
   
       let statusCode

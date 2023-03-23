@@ -570,10 +570,6 @@ const contatos = { "whats-users" :
                         }
 
 
-
-
-
-
 function getContato(id){
 
   let json = {}
